@@ -76,7 +76,7 @@ header {
 
 .top-up h2, .order-info h3 {
     font-size: 1.5em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 .top-up ul {
@@ -173,7 +173,7 @@ header {
 /* Responsive Styles */
 @media (max-width: 500px) {
     .packages {
-        grid-template-columns: repeat(3, 1fr); /* 3 columns layout for medium screens */
+        grid-template-columns: repeat(3, 3fr); /* 3 columns layout for medium screens */
     }
 }
 
@@ -217,7 +217,7 @@ header {
     border: none;
     margin-top: 2em;
     cursor: pointer;
-   width: 100%;
+     width: 100%;
 }
 
 .order-now:hover {
@@ -582,4 +582,14 @@ body{
         border-radius: 50%;
     }
 
+}
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    overflow-y: auto;   /* Allow vertical scrolling */
+    margin: 0;          /* Remove default margin to prevent accidental overflow */
+    padding: 0;         /* Remove default padding to prevent accidental overflow */
+}
+
+html {
+    overflow-x: hidden; /* Prevent horizontal scrolling for the entire document */
 }
