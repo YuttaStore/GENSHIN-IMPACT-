@@ -36,7 +36,7 @@ Zone ID: ${zoneId}
             
 *Payment Method* 
            
-1. UPI ID: (q731109764@ybl)
+1. UPI ID: q731109764@ybl
             
 2. [QR Code](${qrCodeUrl})
             
